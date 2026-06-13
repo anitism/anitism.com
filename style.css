@@ -35,6 +35,16 @@ header {
   color: black;
 }
 
+/* Menu */
+.menu {
+  color: black;
+}
+
+/* Change color on hover */
+.menu a:hover {
+  color: 0038A8;
+}
+
 /* Column container */
 .container {  
   display: flex;
