@@ -45,6 +45,21 @@ header {
   color: #0038A8;
 }
 
+/* Menu changes purple to blue for visited links */
+.menu a:visited {
+color: #0038A8;
+}
+
+/* Menu on mouse hover */
+.menu a:hover {
+color: #0038A8;
+}
+
+/* Menu while clicking */
+.menu a:active {
+color: #0038A8;
+}
+
 /* Column container */
 .container {  
   display: flex;
