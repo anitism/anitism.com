@@ -41,16 +41,9 @@ header {
 }
 
 /* Images */
-img {
+.images {
   max-width: 100%;
   height: auto;
-}
-
-/* Founder image */
-.founder {
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
 }
 
 /* Column container */
