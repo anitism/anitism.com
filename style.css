@@ -15,12 +15,6 @@ header {
   color: white;
 }
 
-/* Banner */
-banner {
-  padding-top: 0px;
-  padding-bottom: 0px;
-}
-
 /* Top navigation bar */
 .navbar {
   display: flex;
