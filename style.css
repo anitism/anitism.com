@@ -77,11 +77,10 @@ header {
 /* Footer */
 footer {
   position: fixed;
-    bottom: 0px;
-    width: 100%;
-    left: 0px;
-  z-index:999;
-  
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
   text-align: center;
   background: #ddd;
 }
