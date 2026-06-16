@@ -81,6 +81,7 @@ footer {
     width: 100%;
     border: 1px solid;
     left: 0px;
+  z-index:999;
   
   padding: 20px;
   text-align: center;
