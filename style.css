@@ -101,6 +101,7 @@ footer {
 a {
   color: black;
   text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 /* Hover links */
@@ -108,9 +109,9 @@ a:hover {
   color: #0038A8;
 }
 
-/* Focus links */
-a:focus {
-    outline: none !important;
+/* Button, input and textarea removal of the blue highlight or square that appears when holding or tapping a link on mobile browsers */
+button, input, textarea {
+    -webkit-tap-highlight-color: transparent;
 }
 
 /* Titles */
