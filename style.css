@@ -61,12 +61,22 @@ header {
   padding: 20px;
 }
 
+/* Sidebar/left column titles */
+.side h2 {
+  color: #0038A8;
+}
+
 /* Main column */
 .main {
   flex: 70%;
   background-color: white;
   padding: 20px;
   margin-bottom:100px;
+}
+
+/* Main column titles */
+.main h2 {
+  color: #0038A8;
 }
 
 /* News */
@@ -93,7 +103,7 @@ a {
   text-decoration: none;
 }
 
-/* Hover Links */
+/* Hover links */
 a:hover {
   color: #0038A8;
 }
@@ -103,7 +113,7 @@ h2 {
   color: #0038A8;
 }
 
-/* Anitism Content */
+/* Anitism content */
 p.anitism {
   /*text-transform: uppercase;*/
 }
