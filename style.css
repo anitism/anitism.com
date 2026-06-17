@@ -89,7 +89,13 @@ footer {
 
 /* Links */
 a {
+  color: black;
   text-decoration: none;
+}
+
+/* Links */
+a:hover {
+  color: #0038A8;
 }
 
 /* Anitism Content */
