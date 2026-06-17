@@ -108,6 +108,11 @@ a:hover {
   color: #0038A8;
 }
 
+/* Focus links */
+a:focus {
+    outline: none !important;
+}
+
 /* Titles */
 h2 {
   color: #0038A8;
