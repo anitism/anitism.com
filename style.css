@@ -87,6 +87,11 @@ footer {
   background: #ddd;
 }
 
+/* Links */
+a {
+  text-decoration: none;
+}
+
 /* Anitism Content */
 p.anitism {
   text-transform: uppercase;
