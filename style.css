@@ -92,6 +92,7 @@ header {
   color: #CE1126; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   font-size: 30px; /* Increase font size */
+  margin: 0;
 }
 
 /* Footer */
