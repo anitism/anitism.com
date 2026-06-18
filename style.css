@@ -86,13 +86,20 @@ header {
   padding: 20px;
 }
 
-/* Back to top button*/
-#topButton {
-  background-color: #CE1126; /* Set a background color */
-  color: #CE1126; /* Text color */
+/* Top button */
+#myBtn {
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  font-size: 30px; /* Increase font size */
-  margin: 0;
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+/* Top button hover */
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
 
 /* Footer */
@@ -104,7 +111,7 @@ footer {
   bottom: 0px;
   text-align: center;
   background: #ddd;
-  margin: 0;
+  margin: 5px;
 }
 
 /* Links */
