@@ -99,6 +99,7 @@ header {
   padding: 5px; /* Some padding */
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
+  margin: 5px;
 }
 
 /* Top button hover */
