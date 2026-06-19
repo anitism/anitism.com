@@ -32,7 +32,7 @@ header {
 /* Change color on hover */
 .navbar a:hover {
   background-color: #CE1126;
-  color: black;
+  color: #0038A8;
 }
 
 /* Menu */
