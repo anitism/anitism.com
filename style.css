@@ -43,7 +43,7 @@ header {
 
 /* Navigation bar links */
 .navbaractive a {
-  color: black;
+  /*color: black;*/
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
@@ -52,7 +52,7 @@ header {
 /* Change color on hover */
 .navbaractive a:hover {
   background-color: #ddd;
-  color: black;
+  /*color: black;*/
 }
 
 /* Menu */
