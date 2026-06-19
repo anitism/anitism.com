@@ -29,6 +29,11 @@ header {
   text-align: center;
 }
 
+/* Navigation bar hover */
+.navbar a {
+  color: white;
+}
+
 /* Menu */
 .menu {
   color: black;
