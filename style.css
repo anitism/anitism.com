@@ -29,12 +29,6 @@ header {
   text-align: center;
 }
 
-/* Change color on hover */
-.navbar a:hover {
-  background-color: #CE1126;
-  color: #0038A8;
-}
-
 /* Menu */
 .menu {
   color: black;
