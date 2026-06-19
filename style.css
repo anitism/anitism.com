@@ -87,7 +87,7 @@ header {
 
 /* Footer */
 footer {
-  position: fixed;
+  position: absolute; /* position fixed */
   width: 100%;
   left: 0px;
   right: 0px;
