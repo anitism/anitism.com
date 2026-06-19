@@ -35,6 +35,12 @@ header {
   color: black;
 }
 
+/* change color when active */
+.navbaractive {
+  background-color: #ddd;
+  color: black;
+}
+
 /* Menu */
 .menu {
   color: black;
