@@ -52,7 +52,7 @@ header {
 /* Change color on hover */
 .navbaractive a:hover {
   background-color: #ddd;
-  /*color: black;*/
+  color: black;
 }
 
 /* Menu */
