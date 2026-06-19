@@ -668,8 +668,13 @@
 
 <!-- Footer -->
 <footer>
-  <a class ="menu" href="#anitism"><h4>© Francis Brandon van Balkom</h4></a>
+  <a class ="menu" href="#anitism"><h4>&copy; WWW.ANITISM.COM <span id="year"></span></h4></a>
 </footer>
-  
+
+<!-- Current year JavaScript -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
 </body>
 </html>
