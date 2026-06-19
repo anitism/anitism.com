@@ -29,8 +29,8 @@ header {
   text-align: center;
 }
 
-/* Navigation bar hover */
-.navbar a {
+/* Change color on hover */
+.navbar a:hover {
   color: white;
 }
 
