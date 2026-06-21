@@ -118,6 +118,11 @@ h2 {
   color: #0038A8;
 }
 
+/* Wrapper */
+.wrapper {
+  margin-bottom: 1.2em;
+}
+
 /* Anitism content */
 p.anitism {
   /*text-transform: uppercase;*/
