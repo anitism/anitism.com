@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="/fav.png" type="image/x-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>English to Swedish</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <textarea name="" id="input" cols="30" rows="10" class="input" placeholder="English"></textarea>
+    <div id="output" class="output">
+      <span style="color:lightslategray;">Swedish</span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="translations.js"></script>
+</body>
+
+</html>
