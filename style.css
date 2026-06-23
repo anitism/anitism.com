@@ -12,7 +12,8 @@ header {
   padding: 5px;
   text-align: center;
   background: #0038A8;
-  color: #FCD116;
+  width: 60%;
+  height: auto;
 }
 
 /* Top navigation bar */
@@ -136,7 +137,8 @@ p.anitism {
 
 @media screen and (max-width: 1190px){
  .header {
-    width: 50%;
+    width: 30%;
+    height: auto;
 }
 
 
