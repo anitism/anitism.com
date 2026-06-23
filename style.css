@@ -17,6 +17,7 @@ header {
   height: auto;
   background-color: #0038A8;
   margin: 0 auto;
+  flex: 100%;
 }
 
 /* Top navigation bar */
@@ -147,6 +148,7 @@ p.anitism {
     height: auto;
     background-color: #0038A8;
     margin: 0 auto;
+    flex: 100%;
 }
 
 
