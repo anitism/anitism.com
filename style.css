@@ -144,16 +144,5 @@ p.anitism {
     flex-direction: column;
 }
 
-@media screen and (max-width: 1190px){
- .header {
-    color: #FCD116;
-    padding: 5px;
-    text-align: center;
-    background: #0038A8;
-    width: 40%;
-    height: auto;
-    margin: 0 auto;
-}
-
 
 
