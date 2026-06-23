@@ -16,6 +16,8 @@ header {
   width: 60%;
   height: auto;
   background-color: #0038A8;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
@@ -146,6 +148,8 @@ p.anitism {
     width: 30%;
     height: auto;
     background-color: #0038A8;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
