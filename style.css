@@ -103,7 +103,7 @@ footer {
   right: 0px;
   bottom: 0px;
   text-align: center;
-  /*background: #ddd;*/
+  margin: 1px;
   background-image: url(http://anitism.com/images/footer.png);
   background-repeat: repeat;
   background-position: center;
