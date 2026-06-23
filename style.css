@@ -16,6 +16,7 @@ header {
   width: 60%;
   height: auto;
   background-color: #0038A8;
+  align-items: center;
 }
 
 /* Top navigation bar */
@@ -145,6 +146,7 @@ p.anitism {
     width: 30%;
     height: auto;
     background-color: #0038A8;
+    align-items: center;
 }
 
 
