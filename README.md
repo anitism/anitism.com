@@ -1,4 +1,4 @@
 The Anitism religion and website.
 
-Copyright © Francis Brandon van Balkom
+Copyright © "Anitism" Francis Brandon van Balkom. All rights reserved.
 www.anitism.com
