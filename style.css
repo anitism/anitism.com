@@ -133,3 +133,11 @@ p.anitism {
   .container, .navbar, .navbaractive {   
     flex-direction: column;
 }
+
+@media screen and (max-width: 1190px){
+ .header {
+    width: 50%;
+}
+
+
+
