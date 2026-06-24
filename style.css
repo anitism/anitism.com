@@ -15,12 +15,12 @@ body {
 
 /* Header */
 header {
+  flex: 100%;
   padding: 5px;
   background: #0038A8;
   height: auto;
   margin: 0 auto;
   padding: 5px;
-  flex: 100%;
 }
 
 /* Top navigation bar */
