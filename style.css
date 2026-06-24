@@ -24,10 +24,10 @@ header {
 
 /* Baybayin */
 .baybayin {
-  flex: 100%;
   color: #FCD116;
   text-align: center;
   background-color: #0038A8;
+  flex: 100%;
 }
 
 /* Top navigation bar */
