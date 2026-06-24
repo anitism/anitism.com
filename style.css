@@ -22,6 +22,12 @@ header {
   flex: 100%;
 }
 
+/* Baybayin */
+.baybayin {
+  flex: 100%;
+  background-color: #0038A8;
+}
+
 /* Top navigation bar */
 .navbar {
   display: flex;
