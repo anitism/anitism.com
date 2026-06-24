@@ -25,6 +25,7 @@ header {
 /* Baybayin */
 .baybayin {
   flex: 100%;
+  color: #FCD116;
   background-color: #0038A8;
 }
 
