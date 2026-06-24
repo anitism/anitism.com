@@ -17,18 +17,10 @@ body {
 header {
   padding: 5px;
   background: #0038A8;
+  width: 75%
   height: auto;
   margin: 0 auto;
   padding: 5px;
-  flex: 100%;
-}
-
-/* Baybayin */
-.baybayin {
-  color: #FCD116;
-  text-align: center;
-  text-shadow: 5px 5px 10px black;
-  background-color: #0038A8;
   flex: 100%;
 }
 
