@@ -20,6 +20,8 @@ header {
   width: auto;
   height: auto;
   margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Top navigation bar */
