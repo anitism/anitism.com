@@ -148,17 +148,17 @@ div.sidebar {
     vertical-align: middle;
 }
 
-.wrap sidebar {
+.sidebar img {
     width: auto;
     height: auto;
     vertical-align: middle;
 }
 
-.wrap sidebar:nth-of-type(1) {
+.sidebar img:nth-of-type(1) {
     left: 0;
 }
 
-.wrap sidebar:nth-of-type(2) {
+.sidebar img:nth-of-type(2) {
     right: 0;
 }
 
