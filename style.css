@@ -25,7 +25,7 @@ header {
 /* Top navigation bar */
 .navbar {
   display: flex;
-  justify-content: center;
+  align-items: center;
   background-color: #333;
   margin-top: 0px;
   margin-bottom: 0px;
