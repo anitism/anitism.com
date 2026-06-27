@@ -73,6 +73,7 @@ header {
 /* Sidebar/left column titles */
 .side h2 {
   color: #0038A8;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px inset;
 }
 
 /* Main column */
@@ -81,6 +82,7 @@ header {
   background-color: white;
   padding: 20px;
   margin-bottom:100px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px inset;
 }
 
 /* Main column titles */
