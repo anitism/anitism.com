@@ -147,14 +147,10 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
-h1{
-  font-size:10vw;
+h1 {
   text-align:center;
   padding:0;
   margin:0;
-  height:100vh;
-  line-height:100vh;
-  font-family:sans-serif;
 }
 
 /* Anitism content */
