@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
-  background-color: #0038A8;
+  margin: 0;
+  padding: 0;
 }
 
 body {
