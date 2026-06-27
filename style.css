@@ -65,11 +65,9 @@ header {
   flex-wrap: wrap;
 }
 
-/* Sidebar/left column */
-.side {
-  flex: 30%;
-  background-color: #f1f1f1;
-  padding: 20px;
+/* Sidebar/left column titles */
+.side h2 {
+  color: #0038A8;
 }
 
 /* Sidebar/left column titles */
