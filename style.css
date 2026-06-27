@@ -24,12 +24,6 @@ header {
 
 /* Top navigation bar */
 .navbar {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 13px;
   display: flex;
   align-items: center;
   background-color: #333;
@@ -40,12 +34,6 @@ header {
 
 /* Navigation bar links */
 .navbar a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 13px;
   color: white;
   padding: 14px 20px;
   text-decoration: none;
