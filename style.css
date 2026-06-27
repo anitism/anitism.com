@@ -149,6 +149,7 @@ p.anitism {
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
+/* Navigation bar decoration left side */
 @media screen and (max-width: 1190px) {
   .navbar {     
     background-image: url('/images/sidebarleft.png');
@@ -157,6 +158,7 @@ p.anitism {
     background-position: left;
   }
 
+/* Navigation bar decoration right side */
 @media screen and (max-width: 1190px) {
 .navbar { 
     background-image: url('/images/sidebarright.png');
