@@ -27,6 +27,7 @@ header {
   background-color: #333;
   margin-top: 0px;
   margin-bottom: 0px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
 /* Navigation bar links */
@@ -144,4 +145,9 @@ p.anitism {
 @media screen and (max-width: 1190px) {
   .container, .navbar, .navbaractive {   
     flex-direction: column;
+}
+
+@media screen and (max-width: 1190px) {
+  .navbar {
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
