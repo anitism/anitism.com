@@ -142,26 +142,6 @@ p.anitism {
   /*text-transform: uppercase;*/
 }
 
-div.sidebar {
-    width: auto;
-    height: auto;
-    vertical-align: middle;
-}
-
-.sidebar img {
-    width: auto;
-    height: auto;
-    vertical-align: middle;
-}
-
-.sidebar img:nth-of-type(1) {
-    left: 0;
-}
-
-.sidebar img:nth-of-type(2) {
-    right: 0;
-}
-
 /* Responsive layout - when the screen is less than 1190px wide, make the two columns stack on top of each other instead of next to each other (example was 700px) */
 @media screen and (max-width: 1190px) {
   .container, .navbar, .navbaractive {   
