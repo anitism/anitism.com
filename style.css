@@ -146,6 +146,22 @@ h2 {
   margin-bottom: 1.2em;
 }
 
+.gradient-text {
+  background-image: linear-gradient(to right, #833ab4, #fd1d1d,#fcb045);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1{
+  font-size:10vw;
+  text-align:center;
+  padding:0;
+  margin:0;
+  height:100vh;
+  line-height:100vh;
+  font-family:sans-serif;
+}
+
 /* Anitism content */
 p.anitism {
   /*text-transform: uppercase;*/
