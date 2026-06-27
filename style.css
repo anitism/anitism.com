@@ -4,11 +4,12 @@
 
 body {
   /*font-family: Arial;*/
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  margin: 0;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 /* Header */
