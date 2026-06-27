@@ -148,3 +148,19 @@ p.anitism {
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
+
+@media screen and (max-width: 1190px) {
+  .navbar {     
+    background-image: url('/images/sidebarleft.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+  }
+
+@media screen and (max-width: 1190px) {
+.navbar { 
+    background-image: url('/images/sidebarright.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
