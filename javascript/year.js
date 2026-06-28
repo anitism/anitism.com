@@ -1,2 +1,3 @@
-<script src="path/to/my/year.js"></script>
-<script src="path/to/my/collapsibe.js"></script>
+/* Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. */
+
+document.getElementById("year").textContent = new Date().getFullYear();
