@@ -23,28 +23,6 @@
 </head>
 <body>
 
-<!-- JavaScript -->
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-  
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
 <!-- Header -->
 <div class="header">
 <header>
@@ -8222,6 +8200,28 @@ for (i = 0; i < coll.length; i++) {
 <footer>
   <a class ="menu" href="#anitism"><h4><font color="#0038A8">&copy; Anitism <span id="year"></span></h4></font></a>
 </footer>
+
+<!-- JavaScript -->
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+  
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
 </body>
 </html>
