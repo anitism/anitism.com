@@ -1,3 +1,5 @@
+<!-- Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,6 +22,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- JavaScript -->
+<script src="javascript/year.js"></script>
+<script src="javascript/collapsible.js"></script>
 
 <!-- Header -->
 <div class="header">
@@ -8201,29 +8207,6 @@
 <footer>
   <a class ="menu" href="#anitism"><h4><font color="#0038A8">&copy; Anitism <span id="year"></span></h4></font></a>
 </footer>
-
-<!-- Collapsible JavaScript -->
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-} 
-</script>
-
-<!-- Current year JavaScript -->
-<script>
-  document.getElementById("year").textContent = new Date().getFullYear();
-</script>
 
 </body>
 </html>
