@@ -164,7 +164,7 @@ h2 {
 
 /* Anitism content */
 p.anitism {
-  /*text-transform: uppercase;*/
+  color: #0038A8;
 }
 
 /* Responsive layout - when the screen is less than 1190px wide, make the two columns stack on top of each other instead of next to each other (example was 700px) */
