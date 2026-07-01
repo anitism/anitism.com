@@ -1,4 +1,5 @@
 https://google.com
 https://wikipedia.org
-https://jstor.org
 https://web.nlp.gov.ph
+https://jstor.org
+https://scribd.com
