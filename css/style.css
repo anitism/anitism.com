@@ -24,30 +24,6 @@ header {
   margin: 0 auto;
 }
 
-/* Top navigation bar */
-.navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
-/* Navigation bar links */
-.navbar a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
-}
-
-/* Change color on hover */
-.navbar a:hover {
-  color: white;
-}
-
 /* Menu */
 .menu {
   color: black;
@@ -164,7 +140,68 @@ h2 {
 
 /* Responsive layout - when the screen is less than 1190px wide, make the two columns stack on top of each other instead of next to each other (example was 700px) */
 @media screen and (max-width: 1190px) {
-  .container, .navbar, .navbaractive {   
+  .container {   
     flex-direction: column;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+/* Navigation bar */
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  padding: 15px 20px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+}
+
+/* Hide checkbox and hamburger icon by default on large screens */
+.menu-toggle, .menu-icon {
+  display: none;
+}
+
+/* MEDIA QUERY: For screens 768px and wider */
+@media (min-width: 768px) {
+  .nav-links li {
+    display: inline-block;
+  }
+}
+
+/* MEDIA QUERY: For screens smaller than 768px */
+@media (max-width: 767.98px) {
+  .nav-links {
+    display: none; /* Hidden by default on mobile */
+    width: 100%;
+    position: absolute;
+    top: 60px; /* Adjust based on navbar height */
+    left: 0;
+    background-color: #333;
+    flex-direction: column;
+  }
+
+  .menu-icon {
+    display: block; /* Show hamburger icon */
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /* Show the dropdown when the hamburger is clicked */
+  .menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
 }
