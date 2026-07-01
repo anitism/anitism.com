@@ -166,6 +166,5 @@ h2 {
 @media screen and (max-width: 1190px) {
   .container, .navbar, .navbaractive {   
     flex-direction: column;
-    border-image: url("http://anitism.com/images/footer.png") 30;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
