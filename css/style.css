@@ -53,6 +53,14 @@ header {
   color: black;
 }
 
+/* Images */
+.images {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
 /* Column container */
 .container {  
   display: flex;
@@ -159,24 +167,5 @@ h2 {
   .container, .navbar, .navbaractive {   
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
-
-/* Responsive layout - when the screen is less than 1190px wide, make images 70% size*/
-@media screen and (max-width: 1190px) {
-  .images {
-    max-width: 70%;
-    height: auto;
-    display: block;
-    margin: auto;
-}
-
-/* Responsive layout - when the screen is more than 1190px wide, make images 100% size */
-@media screen and (min-width: 1190px) {
-  .images {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
 }
 
