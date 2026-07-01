@@ -1,5 +1,6 @@
-https://google.com
-https://wikipedia.org
-https://web.nlp.gov.ph
-https://jstor.org
-https://scribd.com
+https://google.com/
+https://wikipedia.org/
+https://web.nlp.gov.ph/
+https://gutenberg.org/
+https://jstor.org/
+https://scribd.com/
