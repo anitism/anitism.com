@@ -55,7 +55,7 @@ header {
 
 /* Images */
 .images {
-  max-width: 100%;
+  max-width: 666px;
   height: auto;
   display: block;
   margin: auto;
