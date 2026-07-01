@@ -145,7 +145,6 @@ h2 {
 }
 
 /* Navigation bar */
-
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -171,7 +170,7 @@ h2 {
 }
 
 /* Hide checkbox and hamburger icon by default on large screens */
-.menu-toggle, .menu-icon {
+.menu-icon {
   display: none;
 }
 
