@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-/* Normal text */
+/* First letter of content */
 p::first-letter {
   text-transform: uppercase;
 }
