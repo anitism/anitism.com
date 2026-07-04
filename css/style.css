@@ -9,6 +9,13 @@ body {
   margin: 0;
 }
 
+/* Normal text */
+p::first-letter {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0038A8;
+}
+
 /* Header */
 .header {
   flex: 100%;
