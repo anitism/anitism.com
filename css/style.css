@@ -11,9 +11,7 @@ body {
 
 /* Normal text */
 p::first-letter {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #0038A8;
+  text-transform: uppercase;
 }
 
 /* Header */
