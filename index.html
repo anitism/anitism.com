@@ -100,7 +100,7 @@
 <!-- JavaScript -->
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
-  document.getElementById("date").textContent = new Date().toUTCString();
+  document.getElementById("date").textContent = new Date().toLocaleDateString(undefined, options);
 </script>
 
 </body>
