@@ -7,8 +7,12 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Arial';
   margin: 0;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
 }
 
 /* First letter of content */
