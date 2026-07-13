@@ -11,15 +11,17 @@ body {
   margin: 0;
 }
 
+/* Bold text */
 b {
   font-family: 'Arial';
 }
 
+/* Paragraph */
 p {
   font-family: 'Roboto', sans-serif;
 }
 
-/* First letter of content */
+/* First letter of a paragraph */
 p::first-letter {
   text-transform: uppercase;
 }
