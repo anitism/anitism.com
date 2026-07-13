@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+b {
+  font-family: 'Arial';
+}
+
 p {
   font-family: 'Roboto', sans-serif;
 }
