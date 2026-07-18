@@ -188,7 +188,7 @@ footer {
 
 /* Responsive layout - when the screen is less than 1190px wide, make the two columns stack on top of each other instead of next to each other (example was 700px) */
 @media screen and (max-width: 1190px) {
-  .container, .navigation, .navigationactive {   
+  .container, .navigation {   
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
