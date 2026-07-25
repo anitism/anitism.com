@@ -81,7 +81,7 @@ header {
 /* Navigation active */
 @media screen and (min-width: 1190px) {
   .navigation-active {
-    border-bottom: none;
+    border-bottom: 0px;
   }
 }
 
