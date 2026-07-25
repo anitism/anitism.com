@@ -82,8 +82,7 @@ header {
   navigation-active {
     justify-content: center;
     align-items: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px auto;
     color: #FCD116;
     border-bottom: 4px solid #FCD116;
   }
