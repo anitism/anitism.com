@@ -77,6 +77,14 @@ header {
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 
+/* Navigation active */
+@media screen and (min-width: 1190px) {
+  .navigation-active {
+    color: #FCD116;
+    border-bottom: 4px solid #FCD116;
+  }
+}
+
 /* Navigation bar links */
 .navigation a {
   color: white;
