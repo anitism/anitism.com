@@ -46,6 +46,7 @@ a {
 }
 
 /* Hover links */
+@media screen and (max-width: 1190px) {
 a:hover {
   color: #0038A8;
 }
