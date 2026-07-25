@@ -80,10 +80,9 @@ header {
 /* Navigation active */
 @media screen and (min-width: 1190px) {
   navigation-active {
-    justify-content: center;
-    align-items: center;
+    justify-content: bottom;
+    align-items: bottom;
     margin: 0px auto;
-    color: #FCD116;
     border-bottom: 4px solid #FCD116;
   }
 }
