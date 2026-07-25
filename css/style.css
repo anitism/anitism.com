@@ -26,14 +26,8 @@ p::first-letter {
   text-transform: uppercase;
 }
 
-/* H1 titles */
-h1 {
-  color: #0038A8;
-  text-transform: uppercase;
-}
-
-/* H2 titles */
-h2 {
+/* H1 and H2 titles */
+h1, h2 {
   color: #0038A8;
   text-transform: uppercase;
 }
@@ -90,7 +84,7 @@ header {
 }
 
 /* Change color on hover */
-@media screen and (max-width: 1190px) {
+@media screen and (min-width: 1190px) {
   .navigation a:hover {
     color: #FCD116;
   }
