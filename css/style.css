@@ -46,7 +46,6 @@ a {
 }
 
 /* Hover links */
-@media screen and (max-width: 1190px) {
 a:hover {
   color: #0038A8;
 }
@@ -91,8 +90,10 @@ header {
 }
 
 /* Change color on hover */
-.navigation a:hover {
-  color: #FCD116;
+@media screen and (max-width: 1190px) {
+  .navigation a:hover {
+    color: #FCD116;
+  }
 }
 
 /* Menu */
@@ -192,4 +193,5 @@ footer {
   .container, .navigation {   
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
 }
