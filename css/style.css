@@ -40,8 +40,10 @@ a {
 }
 
 /* Hover links */
-a:hover {
-  color: #0038A8;
+@media screen and (min-width: 1190px) {
+  a:hover {
+    color: #0038A8;
+  }
 }
 
 /* Button, input and textarea removal of the blue highlight or square that appears when holding or tapping a link on mobile browsers */
