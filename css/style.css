@@ -75,14 +75,19 @@ header {
   margin-top: 0px;
   margin-bottom: 0px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-bottom: none;
 }
 
 /* Navigation active */
 @media screen and (min-width: 1190px) {
   navigation-active {
-    position: fixed;
-    bottom: 0;
-    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-bottom: 4px solid #FCD116;
   }
 }
