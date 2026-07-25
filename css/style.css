@@ -80,7 +80,7 @@ header {
 
 /* Navigation active */
 @media screen and (min-width: 1190px) {
-  div#navigation > div#a.active {
+  .active {
     border-bottom: 4px solid #FCD116;
   }
 }
