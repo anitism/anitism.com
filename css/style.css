@@ -78,13 +78,6 @@ header {
   border-bottom: 4px solid #FCD116;
 }
 
-/* Navigation active */
-@media screen and (min-width: 1190px) {
-  .navigation-active {
-    border-bottom: 0px;
-  }
-}
-
 /* Navigation bar links */
 .navigation a {
   color: white;
