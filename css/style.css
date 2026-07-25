@@ -75,7 +75,9 @@ header {
   margin-top: 0px;
   margin-bottom: 0px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  border-bottom: 4px solid #FCD116;
+@media screen and (min-width: 1190px) {
+    border-bottom: 4px solid #FCD116;
+  }
 }
 
 /* Navigation bar links */
