@@ -81,12 +81,10 @@ header {
 @media screen and (min-width: 1190px) {
   .navigation-active {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: bottom;
+    align-items: bottom;
     background-color: #333;
-    margin-top: 0px;
     margin-bottom: 0px;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
     border-bottom: 4px solid #FCD116;
   }
 }
