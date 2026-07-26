@@ -191,6 +191,7 @@ footer {
 @media screen and (max-width: 1190px) {
   .container, .navigation {   
     flex-direction: column;
+    background: linear-gradient(0deg, #474747, #333333 80%) no-repeat;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
 }
