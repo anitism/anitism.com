@@ -74,7 +74,7 @@ header {
   background-color: #333;
   margin-top: 0px;
   margin-bottom: 0px;
-  background: linear-gradient(0deg, #595959, #333333 80%) no-repeat;
+  background: linear-gradient(0deg, #333, #222 80%) no-repeat;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 @media screen and (min-width: 1190px) {
     border-bottom: 4px solid #FCD116;
