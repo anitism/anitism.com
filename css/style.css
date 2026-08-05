@@ -104,7 +104,7 @@ header {
 /* Change color on hover */
 @media screen and (min-width: 1190px) {
   .navigation a:hover {
-    color: #D69B05;
+    color: #E6A605;
   }
 }
 
