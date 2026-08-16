@@ -88,7 +88,9 @@ header {
   margin-bottom: 0px;
   background: linear-gradient(0deg, #333, #222 80%) no-repeat;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  overflow: hidden;
+@media screen and (min-width: 1190px) {
+    border-bottom: 4px solid #FCD116;
+  }
 }
 
 /* Navigation bar links */
@@ -97,13 +99,6 @@ header {
   padding: 14px 20px;
   text-decoration: none;
   text-align: center;
-@media screen and (min-width: 1190px) {
-    border-bottom: 4px solid #FCD116;
-  }
-}
-
-.navigation a.active {
-  border-bottom: 4px solid #FFB906;
 }
 
 /* Change color on hover */
