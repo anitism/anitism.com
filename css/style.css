@@ -101,6 +101,10 @@ header {
   text-align: center;
 }
 
+.navigation a.active {
+  border-bottom: 4px solid #FFB906;
+}
+
 /* Change color on hover */
 @media screen and (min-width: 1190px) {
   .navigation a:hover {
