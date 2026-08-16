@@ -91,10 +91,6 @@ header {
 @media screen and (min-width: 1190px) {
     border-bottom: 4px solid #FCD116;
   }
-  .navigation:hover {
-@media screen and (min-width: 1190px) {
-    border-bottom: 4px solid #FFB906;
-  }
 }
 
 /* Navigation bar links */
