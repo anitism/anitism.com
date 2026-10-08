@@ -161,6 +161,7 @@ header {
 
 /* Footer */
 footer {
+  font-family: 'Arial';
   position: fixed;
   width: 100%;
   left: 0px;
