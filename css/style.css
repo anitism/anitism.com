@@ -153,8 +153,8 @@ header {
   color: #CE1126;
 }
 
-/* News */
-.news {
+/* News article */
+article {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
