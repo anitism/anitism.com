@@ -146,11 +146,6 @@ li {
   text-align: left;
 }
 
-/* Sidebar/left font words */
-.side font {
-  text-align: left;
-}
-
 /* Main column */
 .main {
   flex: 70%;
