@@ -111,6 +111,7 @@ header {
 /* Menu */
 .menu {
   color: black;
+  list-style-type: none;
 }
 
 /* Images */
