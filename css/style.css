@@ -32,6 +32,11 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+/* Font */
+font {
+  text-align: left;
+}
+
 /* Links */
 a {
   color: black;
