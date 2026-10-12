@@ -132,9 +132,7 @@ header {
   background-color: #f1f1f1;
   padding: 20px;
   flex: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 /* Sidebar/left column titles */
