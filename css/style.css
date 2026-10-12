@@ -111,6 +111,10 @@ header {
 /* Menu */
 .menu {
   color: black;
+}
+
+/* List */
+li {
   text-align: left;
 }
 
