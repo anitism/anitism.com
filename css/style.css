@@ -140,7 +140,7 @@ header {
 }
 
 /* Main column */
-.content {
+.articles {
   flex: 70%;
   background-color: white;
   padding: 20px;
@@ -148,7 +148,7 @@ header {
 }
 
 /* Main column titles */
-.content h2 {
+.articles h2 {
   color: #CE1126;
 }
 
