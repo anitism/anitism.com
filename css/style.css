@@ -164,8 +164,10 @@ article {
   background-color: #f1f1f1;
   width: 100%;
   padding: 20px;
-  text-align: center;
   border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Footer */
