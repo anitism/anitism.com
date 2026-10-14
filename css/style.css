@@ -66,13 +66,13 @@ button, input, textarea {
 /* Header */
 .header {
   flex: 100%;
-  background-color: #CE1126;
+  background-color: #0038A8;
 }
 
 /* Header */
 header {
   flex: 100%;
-  background: #CE1126;
+  background: #0038A8;
   width: auto;
   height: auto;
   margin: 0 auto;
