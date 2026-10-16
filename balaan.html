@@ -64,6 +64,8 @@
     <p><li><a class ="menu" href="#theoriginofthekanlaonvolcano"><b>THE ORIGIN OF THE KANLAON VOLCANO</b></a></li></p>
     <p><li><a class ="menu" href="#thegodlaon"><b>THE GOD LAON</b></a></li></p>
     <p><li><a class ="menu" href="#thegodsofwar"><b>THE GODS OF WAR</b></a></li></p>
+    <p><li><a class ="menu" href="#maragtas"><b>MARAGTAS</b></a></li></p>
+
 
     </ul>
 
@@ -165,6 +167,23 @@
 <!-- JavaScript -->
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("collapsible-active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
 </script>
 
 </body>
