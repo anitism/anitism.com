@@ -49,7 +49,7 @@
 
     <img class="images" src="/images/diwata.png" fetchpriority="high" alt="Diwata">
 
-    <p id="greet"></p>
+    <p id="greetings"></p>
 
     <p>The belief in anito are referred to as <b>Anitism</b>.</p>
 
@@ -87,16 +87,19 @@
 </script>
 
 <script>
-  const time = new Date().getHours();
-  let greeting;
-  if (time < 10) {
-    greeting = "Good morning!";
-  } else if (time < 20) {
-    greeting = "Good day!";
-  } else {
-    greeting = "Good evening!";
-  }
-  document.getElementById("greet").innerHTML = greeting;
+  var myDate = new Date();
+  var hours = myDate.getHours();
+  
+  var greet;
+  
+  if (hours < 12)
+    greet = 'Good Morning';
+  else if (hours >= 12 && hours <= 17)
+    greet = 'Good Afternoon';
+  else if (hours >= 17 && hours <= 24)
+    greet = 'Good Evening';
+  
+  document.getElementById('greetings').innerHTML ='<b>' + greet + '</b>';
 </script>
 
 </body>
