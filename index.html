@@ -49,6 +49,8 @@
 
     <img class="images" src="/images/diwata.png" fetchpriority="high" alt="Diwata">
 
+    <p id="greet"></p>
+
     <p>The belief in anito are referred to as <b>Anitism</b>.</p>
 
     <p>Anito are sacrifices, practices, ceremonies and also a formal act of worship conducted by a Babaylan.</p>
@@ -67,7 +69,7 @@
     <h4 style="text-align: center;">NEWS <span id="date"></span></h4>
 
     <img class="images" src="/images/anitism.png" margin="0px" fetchpriority="high" alt="Boxer Codex">
-    <article role="article"><p id="greet"></p> Welcome to Anitism.<br>I have created this website for educational and religious purposes.<br>The website is currently under construction.<br>You are able to view the content that is available so far.<br>Stay tuned!</article>
+    <article role="article">Welcome to Anitism.<br>I have created this website for educational and religious purposes.<br>The website is currently under construction.<br>You are able to view the content that is available so far.<br>Stay tuned!</article>
     <h4 style="text-align: center;"><p>FOUNDER</p></h4>
     
     </main>
@@ -88,11 +90,11 @@
   const time = new Date().getHours();
   let greeting;
   if (time < 10) {
-    greeting = "Good morning.";
+    greeting = "Good morning!";
   } else if (time < 20) {
-    greeting = "Good day.";
+    greeting = "Good day!";
   } else {
-    greeting = "Good evening.";
+    greeting = "Good evening!";
   }
   document.getElementById("greet").innerHTML = greeting;
 </script>
