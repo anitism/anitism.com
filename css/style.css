@@ -207,6 +207,7 @@ footer {
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .collapsible-active, .collapsible:hover {
   background-color: #ccc;
+  text-align: center;
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -215,7 +216,6 @@ footer {
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
-  text-align: center;
 }
 
 /* Responsive layout - when the screen is less than 825 pixels wide, make the two columns stack on top of each other instead of next to each other (example was 700px) */
