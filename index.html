@@ -93,13 +93,13 @@
   var greet;
   
   if (hours < 12)
-    greet = 'Good Morning';
+    greet = 'Good morning.';
   else if (hours >= 12 && hours <= 17)
-    greet = 'Good Afternoon';
+    greet = 'Good afternoon.';
   else if (hours >= 17 && hours <= 24)
-    greet = 'Good Evening';
+    greet = 'Good evening.';
   
-  document.getElementById('greetings').innerHTML ='<b>' + greet + '</b>';
+  document.getElementById('greetings').innerHTML ='' + greet + '';
 </script>
 
 </body>
