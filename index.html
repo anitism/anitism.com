@@ -64,10 +64,10 @@
     
     <h2>WELCOME</h2>
       
-    <h4 style="text-align: center;">NEWS <span id="date"></span> ᜀ ᜈᜒ ᜆᜒ ᜐ᜔ ᜋᜓ</h4>
+    <h4 style="text-align: center;">NEWS <span id="date"></span></h4>
 
     <img class="images" src="/images/anitism.png" margin="0px" fetchpriority="high" alt="Boxer Codex">
-    <article role="article">Welcome to Anitism.<br>I have created this website for educational and religious purposes.<br>The website is currently under construction.<br>You are able to view the content that is available so far.<br>Stay tuned!</article>
+    <article role="article"><span id="greet"></span> Welcome to Anitism.<br>I have created this website for educational and religious purposes.<br>The website is currently under construction.<br>You are able to view the content that is available so far.<br>Stay tuned!</article>
     <h4 style="text-align: center;"><p>FOUNDER</p></h4>
     
     </main>
@@ -82,6 +82,19 @@
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
   document.getElementById("date").textContent = new Date().toLocaleDateString();
+</script>
+
+<script>
+  const time = new Date().getHours();
+  let greeting;
+  if (time < 10) {
+    greeting = "Good morning.";
+  } else if (time < 20) {
+    greeting = "Good day.";
+  } else {
+    greeting = "Good evening.";
+  }
+  document.getElementById("greet").innerHTML = greeting;
 </script>
 
 </body>
