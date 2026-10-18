@@ -40,7 +40,7 @@ a {
 }
 
 /* Hover links */
-@media screen and (min-width: 1190px) {
+@media screen and (min-width: 825px) {
   a:hover {
     color: #0038A8;
   }
@@ -88,7 +88,7 @@ header {
   margin-bottom: 0px;
   background: linear-gradient(0deg, #333, #222 80%) no-repeat;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-@media screen and (min-width: 1190px) {
+@media screen and (min-width: 825px) {
     border-bottom: 4px solid #FCD116;
   }
 }
@@ -102,7 +102,7 @@ header {
 }
 
 /* Change color on hover */
-@media screen and (min-width: 1190px) {
+@media screen and (min-width: 825px) {
   .navigation a:hover {
     color: #FFB906;
   }
