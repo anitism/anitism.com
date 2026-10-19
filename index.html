@@ -49,8 +49,6 @@
 
     <img class="images" src="/images/flagofthephilippines.png" fetchpriority="high" alt="Flag of the Philippines">
 
-    <p id="greet"></p>
-
     <p>The belief in anito are referred to as <b>Anitism</b>.</p>
 
     <p>Anito are sacrifices, offerings, ceremonies and also a formal act of worship conducted by a Babaylan.</p>
@@ -84,21 +82,6 @@
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
   document.getElementById("date").textContent = new Date().toLocaleDateString();
-</script>
-
-<script>
-  const date = new Date();
-  const time = date.getHours();
-  
-  if (time > 0 && time < 6){
-      document.getElementById("greet").innerHTML = "Good morning.";
-  } else if (time >= 6 && time < 12){
-      document.getElementById("greet").innerHTML = "Good morning.";
-  } else if (time >= 12 && time < 18){
-      document.getElementById("greet").innerHTML = "Good afternoon.";
-  } else {
-      document.getElementById("greet").innerHTML = "Good evening."
-  }
 </script>
 
 </body>
