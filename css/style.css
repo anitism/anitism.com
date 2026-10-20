@@ -140,8 +140,6 @@ li {
   padding: 20px;
   flex: 30%;
   text-align: center;
-  display: flex;
-  align-items: stretch;
 }
 
 /* Sidebar/left column titles */
