@@ -100,6 +100,11 @@ li {
   text-align: left;
 }
 
+/* List icon */
+::marker {
+  color: #FCD116;
+}
+
 /* Images */
 .images {
   max-width: 100%;
