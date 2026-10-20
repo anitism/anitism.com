@@ -9,19 +9,9 @@
 
 html, body {
   height: 100%;
-  font-family: 'Arial';
+  font-family: 'Roboto', sans-serif;
   font-size: clamp(1em, 17px + 0.24vw, 1.125em);
   margin: 0;
-}
-
-/* Bold text */
-b {
-  font-family: 'Arial';
-}
-
-/* Paragraph */
-p {
-  font-family: 'Roboto', sans-serif;
 }
 
 /* H1 and H2 titles */
