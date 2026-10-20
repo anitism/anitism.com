@@ -10,9 +10,7 @@
 html, body {
   height: 100%;
   font-family: 'Arial';
-  font-size: clamp(1em, var(--base-font-size, 16px), 1.25em);
-  @media (width > 30em) { --base-font-size: 18px; }
-  @media (width > 45em) { --base-font-size: 20px; }
+  font-size: clamp(1em, 17px + 0.24vw, 1.125em);
   margin: 0;
 }
 
