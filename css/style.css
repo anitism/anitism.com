@@ -166,7 +166,8 @@ li {
 /* News article */
 article {
   background-color: #f1f1f1;
-  width: 1530;
+  width: 100%
+  max-width: 1530px;
   padding: 40px;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
