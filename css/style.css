@@ -61,7 +61,7 @@ button, input, textarea {
 }
 
 /* Header */
-.header, header {
+header {
   flex: 100%;
   background-color: #0038A8;
   width: auto;
