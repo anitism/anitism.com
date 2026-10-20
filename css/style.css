@@ -132,6 +132,7 @@ li {
 .container {  
   display: flex;
   flex-wrap: wrap;
+  min-height: 100dvh;
 }
 
 /* Sidebar/left column */
@@ -140,8 +141,6 @@ li {
   padding: 20px;
   flex: 30%;
   text-align: center;
-  height: 100%;
-  min-height: 100dvh;
 }
 
 /* Sidebar/left column titles */
