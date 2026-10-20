@@ -61,7 +61,7 @@ button, input, textarea {
 }
 
 /* Header */
-.header, header {
+header {
   flex: 100%;
   background-color: #0038A8;
   width: auto;
@@ -165,10 +165,6 @@ article {
   border-bottom-right-radius: 25px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Footer */
