@@ -139,7 +139,7 @@ li {
   padding: 20px;
   flex: 30%;
   text-align: center;
-  height: 100%dvh;
+  height: 100vh;
 }
 
 /* Sidebar/left column titles */
@@ -154,7 +154,6 @@ li {
   background-color: white;
   padding: 20px;
   margin-bottom: 20%;
-  height: 100%dvh;
 }
 
 /* Main column titles */
