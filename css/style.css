@@ -10,7 +10,7 @@
 html, body {
   height: 100%;
   font-family: 'Arial';
-  font-size: clamp(1em, 17px + 0.24vw, 1.125em);
+  font-size: clamp(1em, 17px + 0.24vw, 25px);
   margin: 0;
 }
 
