@@ -13,13 +13,11 @@ body {
 
 /* Bold text */
 b {
-  font-size: 16px;
   font-family: 'Arial';
 }
 
 /* Paragraph */
 p {
-  font-size: 16px;
   font-family: 'Roboto', sans-serif;
 }
 
