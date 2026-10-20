@@ -10,6 +10,7 @@
 body {
   font-family: 'Arial';
   margin: 0;
+  height: 100%;
 }
 
 /* Bold text */
@@ -140,7 +141,6 @@ li {
   padding: 20px;
   flex: 30%;
   text-align: center;
-  height: 100vh;
 }
 
 /* Sidebar/left column titles */
