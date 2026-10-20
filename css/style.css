@@ -109,14 +109,6 @@ header {
   }
 }
 
-/* Navigation active */
-.navigation-active {
-  text-color: #FCD116;
-@media screen and (min-width: 825px) {
-    text-color: #FFB906;
-  }
-}
-
 /* Menu */
 .menu {
   color: black;
