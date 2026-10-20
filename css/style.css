@@ -140,7 +140,7 @@ li {
   padding: 20px;
   flex: 30%;
   text-align: center;
-  height: auto;
+  height: 100vh;
 }
 
 /* Sidebar/left column titles */
