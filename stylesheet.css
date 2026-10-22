@@ -17,7 +17,7 @@ html, body {
 }
 
 /* Centered text */
-main h4, p image-text {
+main h4, p .image-text {
   text-align: center;
 }
 
