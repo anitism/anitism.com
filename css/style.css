@@ -94,9 +94,16 @@ nav {
   }
 }
 
+/* Navigation bar links */
+nav a {
+  color: #FFFFFF;
+  padding: 14px 20px;
+  text-align: center;
+}
+
 /* Change color on hover */
 @media screen and (min-width: 825px) {
-  .navigation a:hover {
+  nav a:hover {
     color: #FCD116;
   }
 }
