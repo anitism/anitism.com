@@ -20,6 +20,20 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+/* Links */
+li a {
+  color: #000000;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hover links */
+@media screen and (min-width: 825px) {
+  li a:hover {
+    color: #0038A8;
+  }
+}
+
 /* Button, input and textarea removal of the blue highlight or square that appears when holding or tapping a link on mobile browsers */
 button, input, textarea {
     -webkit-tap-highlight-color: transparent;
@@ -80,20 +94,6 @@ nav a {
 li {
   text-align: left;
   list-style-type: "★ ";
-}
-
-/* Links */
-li a {
-  color: #000000;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-/* Hover links */
-@media screen and (min-width: 825px) {
-  li a:hover {
-    color: #0038A8;
-  }
 }
 
 /* List marker */
