@@ -33,6 +33,11 @@ li {
   color: #FCD116;
 }
 
+/* Links */
+a {
+  color: #0038A8;
+}
+
 /* Images */
 img {
   max-width: 100%;
@@ -40,11 +45,6 @@ img {
   display: block;
   margin: auto;
   border-radius: 5px;
-}
-
-/* Link base */
-base {
-  color: #0038A8;
 }
 
 /* Column container */
