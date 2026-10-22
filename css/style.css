@@ -101,6 +101,19 @@ nav a {
   }
 }
 
+/* Main column */
+main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 13%;
+}
+
+/* Main column titles */
+main h2 {
+  color: #CE1126;
+}
+
 /* Sidebar/left column */
 aside {
   background-color: #f1f1f1;
@@ -115,21 +128,8 @@ aside h2 {
   text-align: left;
 }
 
-/* Main column */
-main {
-  flex: 70%;
-  background-color: white;
-  padding: 20px;
-  margin-bottom: 13%;
-}
-
-/* Main column titles */
-main h2 {
-  color: #CE1126;
-}
-
-/* Main column links and hover */
-main a, main a:hover {
+/* Main column and side column links and hover */
+main a, main a:hover aside a, aside a:hover {
   color: #0038A8;
 }
 
