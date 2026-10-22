@@ -100,8 +100,8 @@ nav a {
 }
 
 /* Change color on hover */
-@media screen and (min-width: 825px) {
   nav a:hover {
+    @media screen and (min-width: 825px) {
     color: #FCD116;
   }
 }
