@@ -163,7 +163,7 @@ footer {
 }
 
 /* Footer link */
-footer a {
+footer a, footer a:hover {
   color: #FFFFFF;
 }
 
