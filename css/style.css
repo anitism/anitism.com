@@ -146,11 +146,6 @@ article {
   border-top-right-radius: 5px;
 }
 
-/* Address link */
-address a {
-  color: #0038A8;
-}
-
 /* Footer */
 footer {
   position: fixed;
