@@ -5,6 +5,7 @@
 * {
   box-sizing: border-box;
   text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html, body {
@@ -59,11 +60,6 @@ li a {
   display: flex;
   flex-wrap: wrap;
   min-height: 100dvh;
-}
-
-/* Button, input and textarea removal of the blue highlight or square that appears when holding or tapping a link on mobile browsers */
-button, input, textarea {
-    -webkit-tap-highlight-color: transparent;
 }
 
 /* Keyframes logo */
