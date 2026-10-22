@@ -94,6 +94,11 @@ nav a {
   text-align: center;
 }
 
+/* Navigation bar active links */
+nav .active {
+  color: #FCD116;
+}
+
 /* Change color on hover */
 @media screen and (min-width: 825px) {
   nav a:hover {
