@@ -28,11 +28,6 @@ li {
   list-style-type: "\2605\00a0";
 }
 
-/* List marker */
-::marker {
-  color: #FCD116;
-}
-
 /* Images */
 img {
   max-width: 100%;
@@ -94,8 +89,8 @@ nav a {
   text-align: center;
 }
 
-/* Navigation bar active links */
-nav .active {
+/* Navigation bar active links and list markers */
+nav .active, ::marker {
   color: #FCD116;
 }
 
