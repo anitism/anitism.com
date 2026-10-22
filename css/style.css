@@ -76,7 +76,7 @@ nav {
 }
 
 /* Navigation bar links */
-.navigation a {
+nav a {
   color: #FFFFFF;
   padding: 14px 20px;
   text-decoration: none;
@@ -126,7 +126,7 @@ aside {
 }
 
 /* Sidebar/left column titles */
-.side h2 {
+aside h2 {
   color: #0038A8;
   text-align: left;
 }
@@ -140,7 +140,7 @@ main {
 }
 
 /* Main column titles */
-.main h2 {
+main h2 {
   color: #CE1126;
 }
 
