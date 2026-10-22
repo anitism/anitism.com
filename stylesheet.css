@@ -16,12 +16,6 @@ html, body {
   margin: 0;
 }
 
-/* H2 titles */
-h2 {
-  color: #0038A8;
-  text-transform: uppercase;
-}
-
 /* List */
 li {
   text-align: left;
