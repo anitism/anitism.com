@@ -126,7 +126,7 @@ aside {
 }
 
 /* Sidebar/left column titles */
-aside h2 {
+.side h2 {
   color: #0038A8;
   text-align: left;
 }
@@ -140,7 +140,7 @@ main {
 }
 
 /* Main column titles */
-main h2 {
+.main h2 {
   color: #CE1126;
 }
 
@@ -165,7 +165,6 @@ article {
 
 /* Footer */
 footer {
-  color: FFFFFF;
   position: fixed;
   width: 100%;
   left: 0px;
