@@ -14,18 +14,6 @@ html, body {
   margin: 0;
 }
 
-/* Keyframes logo */
-@keyframes logo {
-  0% {
-    opacity: 0;
-    transform: translateY(-30px) scale(0.9);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px) scale(1);
-  }
-}
-
 /* H1 and H2 titles */
 h1, h2 {
   color: #0038A8;
@@ -76,6 +64,18 @@ li a {
 /* Button, input and textarea removal of the blue highlight or square that appears when holding or tapping a link on mobile browsers */
 button, input, textarea {
     -webkit-tap-highlight-color: transparent;
+}
+
+/* Keyframes logo */
+@keyframes logo {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
 }
 
 /* Header */
