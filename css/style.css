@@ -42,6 +42,11 @@ img {
   border-radius: 5px;
 }
 
+/* Link */
+link {
+  color: #0038A8;
+}
+
 /* Column container */
 .container {  
   display: flex;
@@ -166,11 +171,6 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   background: linear-gradient(0deg, #222, #333 80%) no-repeat;
-}
-
-/* Footer text*/
-footer a {
-  color: #FFFFFF;
 }
 
 /* Responsive layout - when the screen is less than 825 pixels wide, make the two columns stack on top of each other instead of next to each other (example was 700px) */
