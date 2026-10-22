@@ -16,6 +16,11 @@ html, body {
   margin: 0;
 }
 
+/* Centered text */
+main h4, p image-text {
+  text-align: center;
+}
+
 /* List */
 li {
   text-align: left;
@@ -111,11 +116,6 @@ main {
 /* Main column titles, links and hover */
 main h1, main h2, main a, main a:hover {
   color: #CE1126;
-}
-
-/* Main column h4 */
-main h4 {
-  text-align: center;
 }
 
 /* Sidebar/left column */
