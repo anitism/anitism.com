@@ -16,9 +16,14 @@ html, body {
   margin: 0;
 }
 
-#statuspanel {
+/* Suppress connecting/waiting/reading/transferring */
+#statuspanel[type="status"] {
   display: none !important;
-} 
+}
+/* Suppress link destination overlay */
+#statuspanel[type="overLink"] {
+  display: none !important;
+}
 
 /* H1 and H2 titles */
 h1, h2 {
