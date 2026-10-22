@@ -33,11 +33,6 @@ li {
   color: #FCD116;
 }
 
-/* Links */
-a , a:hover {
-  color: #0038A8;
-}
-
 /* Images */
 img {
   max-width: 100%;
@@ -100,8 +95,8 @@ nav a {
 }
 
 /* Change color on hover */
+@media screen and (min-width: 825px) {
   nav a:hover {
-    @media screen and (min-width: 825px) {
     color: #FCD116;
   }
 }
@@ -152,7 +147,7 @@ article {
   border-top-right-radius: 5px;
 }
 
-/* Address */
+/* Address link */
 address a {
   color: #0038A8;
 }
@@ -171,6 +166,11 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   background: linear-gradient(0deg, #222, #333 80%) no-repeat;
+}
+
+/* Footer link */
+footer a {
+  color: #FFFFFF;
 }
 
 /* Responsive layout - when the screen is less than 825 pixels wide, make the two columns stack on top of each other instead of next to each other (example was 700px) */
