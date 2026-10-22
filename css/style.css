@@ -56,6 +56,11 @@ img {
   }
 }
 
+/*Anitism header */
+#anitism {
+  animation: logo 0.5s 0.4s backwards;
+}
+
 /* Header */
 header {
   background-color: #0038A8;
