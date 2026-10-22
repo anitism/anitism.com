@@ -34,7 +34,7 @@ li {
 }
 
 /* Links */
-a {
+a , a:hover {
   color: #0038A8;
 }
 
