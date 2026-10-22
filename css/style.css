@@ -5,6 +5,7 @@
 * {
   box-sizing: border-box;
   text-size-adjust: 100%;
+  text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -69,8 +70,8 @@ img {
 
 /* Header */
 header {
-  flex: 100%;
   background-color: #0038A8;
+  flex: 100%;
   width: auto;
   height: auto;
   margin: 0 auto;
@@ -79,6 +80,8 @@ header {
 /* Top navigation bar */
 nav {
   background-color: #333;
+  color: #FFFFFF;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,14 +92,6 @@ nav {
 @media screen and (min-width: 825px) {
     border-bottom: 4px solid #FCD116;
   }
-}
-
-/* Navigation bar links */
-nav a {
-  color: #FFFFFF;
-  padding: 14px 20px;
-  text-decoration: none;
-  text-align: center;
 }
 
 /* Change color on hover */
