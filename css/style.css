@@ -27,13 +27,6 @@ li {
   list-style-type: "★ ";
 }
 
-/* List inks*/
-li a {
-  color: #000000;
-  text-decoration: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
 /* List hover links */
 @media screen and (min-width: 825px) {
   li a:hover {
