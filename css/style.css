@@ -30,7 +30,7 @@ h1, h2 {
 /* List */
 li {
   text-align: left;
-  list-style-type: "★ ";
+  list-style-type: "U+2605; ";
 }
 
 /* List marker */
