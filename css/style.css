@@ -109,8 +109,8 @@ main {
   margin-bottom: 13%;
 }
 
-/* Main column titles */
-main h2 {
+/* Main column titles, links and hover */
+main h2, main a, main a:hover {
   color: #CE1126;
 }
 
@@ -122,14 +122,8 @@ aside {
   text-align: center;
 }
 
-/* Sidebar/left column titles */
-aside h2 {
-  color: #0038A8;
-  text-align: left;
-}
-
-/* Main column and side column links and hover */
-main a, main a:hover aside a, aside a:hover {
+/* Side column titles, links and hover */
+aside h2, aside a, aside a:hover {
   color: #0038A8;
 }
 
