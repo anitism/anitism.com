@@ -16,6 +16,10 @@ html, body {
   margin: 0;
 }
 
+#statuspanel {
+  display: none !important;
+} 
+
 /* H1 and H2 titles */
 h1, h2 {
   color: #0038A8;
@@ -26,13 +30,6 @@ h1, h2 {
 li {
   text-align: left;
   list-style-type: "★ ";
-}
-
-/* List hover links */
-@media screen and (min-width: 825px) {
-  li a:hover {
-    color: #0038A8;
-  }
 }
 
 /* List marker */
