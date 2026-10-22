@@ -61,7 +61,7 @@ header {
 }
 
 /* Top navigation bar */
-.navigation {
+nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -76,7 +76,7 @@ header {
 }
 
 /* Navigation bar links */
-.navigation a {
+nav a {
   color: white;
   padding: 14px 20px;
   text-decoration: none;
@@ -88,11 +88,6 @@ header {
   .navigation a:hover {
     color: #FCD116;
   }
-}
-
-/* Menu */
-.menu {
-  color: black;
 }
 
 /* List */
@@ -131,7 +126,7 @@ aside {
 }
 
 /* Sidebar/left column titles */
-.side h2 {
+aside h2 {
   color: #0038A8;
   text-align: left;
 }
@@ -145,7 +140,7 @@ main {
 }
 
 /* Main column titles */
-.main h2 {
+main h2 {
   color: #CE1126;
 }
 
