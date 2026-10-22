@@ -25,7 +25,7 @@ h1, h2 {
 /* List */
 li {
   text-align: left;
-  list-style-type: "U+2605; ";
+  list-style-type: "&#9733; ";
 }
 
 /* List marker */
