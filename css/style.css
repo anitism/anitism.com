@@ -20,18 +20,45 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-/* Links */
+/* List */
+li {
+  text-align: left;
+  list-style-type: "★ ";
+}
+
+/* List inks*/
 li a {
   color: #000000;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
 
-/* Hover links */
+/* List hover links */
 @media screen and (min-width: 825px) {
   li a:hover {
     color: #0038A8;
   }
+}
+
+/* List marker */
+::marker {
+  color: #FCD116;
+}
+
+/* Images */
+.images {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+/* Column container */
+.container {  
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100dvh;
 }
 
 /* Button, input and textarea removal of the blue highlight or square that appears when holding or tapping a link on mobile browsers */
@@ -88,33 +115,6 @@ nav a {
   .navigation a:hover {
     color: #FCD116;
   }
-}
-
-/* List */
-li {
-  text-align: left;
-  list-style-type: "★ ";
-}
-
-/* List marker */
-::marker {
-  color: #FCD116;
-}
-
-/* Images */
-.images {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: auto;
-  border-radius: 5px;
-}
-
-/* Column container */
-.container {  
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 100dvh;
 }
 
 /* Sidebar/left column */
