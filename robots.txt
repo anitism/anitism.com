@@ -8,5 +8,3 @@ User-agent: Googlebot-image
 Allow: /
 User-agent: Googlebot-news
 Allow: /
-User-agent: Storebot-Google
-Allow: /
