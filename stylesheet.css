@@ -77,6 +77,7 @@ nav {
   box-shadow: none;
 @media screen and (min-width: 825px) {
     background-color: #333;
+    background: linear-gradient(0deg, #333, #222 80%) no-repeat;
     border-bottom: 4px solid #FCD116;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   }
