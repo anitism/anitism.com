@@ -48,20 +48,6 @@
   <a href="contact.html">Contact</a>
 </nav>
 
-  <script>
-        document.addEventListener("DOMContentLoaded", function () {
-
-            fetch('./index.json')
-                .then((response) => response.json())
-                .then((json) => {
-                    console.log(json);
-                        document.querySelector(".content h1").innerHTML = json[0].title;
-                        document.querySelector(".content p").innerHTML = json[0].paragraph;
-                    }
-                })
-        });
-  </script>
-
 <!-- Content container side -->
 <div class="container">
   <aside role="complementary">
@@ -87,6 +73,20 @@
 
 <!-- Script -->
 <script src="javascript/date.js"></script>
+
+  <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            fetch('./index.json')
+                .then((response) => response.json())
+                .then((json) => {
+                    console.log(json);
+                        document.querySelector(".content h1").innerHTML = json[0].title;
+                        document.querySelector(".content p").innerHTML = json[0].paragraph;
+                    }
+                })
+        });
+  </script>
 
 </body>
 </html>
