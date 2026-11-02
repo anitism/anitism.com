@@ -1,7 +1,6 @@
 <!-- Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. -->
 
 document.addEventListener("DOMContentLoaded", function () {
-
             fetch('./index.json')
                 .then((response) => response.json())
                 .then((json) => {
