@@ -64,6 +64,10 @@ header {
 
 nav {
   background-color: #0038A8;
+  background-image: url('sun.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: 15%;
   color: #FFFFFF;
   text-align: center;
   display: flex;
