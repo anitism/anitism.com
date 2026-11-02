@@ -1,7 +1,7 @@
 [
     {
         "title": "Anitism",
-        "content": "Welcome to <b>Anitism</b>!
+        "paragraph": "Welcome to <b>Anitism</b>!
       The belief in anito are referred to as Anitism.
       Anito are sacrifices, offerings, ceremonies and also a formal act of worship conducted by a Babaylan.
       The Anitism religion is devoted to the gods, ancestors, nature spirits and idols, collectively known as Diwata among the Visayans."
@@ -9,6 +9,6 @@
 
     {
         "title": "how to relax?",
-        "content": "Go to grab a coffee"
+        "paragraph": "Go to grab a coffee"
     }
 ]
