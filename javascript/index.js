@@ -5,9 +5,6 @@
                 .then((json) => {
                     console.log(json);
                         document.querySelector(".anitism h1").innerHTML = json[0].title;
-                        document.querySelector(".anitism p").innerHTML = json[0].paragraph1;
-                        document.querySelector(".anitism p").innerHTML = json[0].paragraph2;
-                        document.querySelector(".anitism p").innerHTML = json[0].paragraph3;
-                        document.querySelector(".anitism p").innerHTML = json[0].paragraph4;
+                        document.querySelector(".anitism p").innerHTML = json[0].paragraph;
                 })
         });
