@@ -20,6 +20,10 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+p {
+  margin-bottom: 1em 0px;
+}
+
 li {
   text-align: left;
   list-style-type: "\2605\00a0";
@@ -31,11 +35,6 @@ img {
   display: block;
   margin: auto;
   border-radius: 5px;
-}
-
-span #greet, span #date {
-  margin-top: 0;
-  margin-bottom: 0;
 }
 
 .container {  
