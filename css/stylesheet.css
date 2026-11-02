@@ -20,10 +20,6 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-br {
-  margin-bottom: 10px;
-}
-
 li {
   text-align: left;
   list-style-type: "\2605\00a0";
