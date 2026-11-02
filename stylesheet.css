@@ -71,7 +71,7 @@ header {
 
 /* Top navigation bar */
 nav {
-  background-color: #333;
+  background-color: #0038A8;
   color: #FFFFFF;
   text-align: center;
   display: flex;
@@ -79,8 +79,6 @@ nav {
   align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
-  background: linear-gradient(0deg, #333, #222 80%) no-repeat;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 @media screen and (min-width: 825px) {
     border-bottom: 4px solid #FCD116;
   }
