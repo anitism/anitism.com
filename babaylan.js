@@ -1,7 +1,6 @@
 <!-- Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. -->
 
 document.addEventListener("DOMContentLoaded", function () {
-
             fetch('./babaylan.json')
                 .then((response) => response.json())
                 .then((json) => {
@@ -16,5 +15,5 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.querySelector(".spirits p").innerHTML = json[3].paragraph;
                         document.querySelector(".sacrifices h2").innerHTML = json[4].title;
                         document.querySelector(".sacrifices p").innerHTML = json[4].paragraph;
-                })
-        });
+            })
+});
