@@ -1,6 +1,6 @@
         document.addEventListener("DOMContentLoaded", function () {
 
-            fetch('./index.json')
+            fetch('./babaylan.json')
                 .then((response) => response.json())
                 .then((json) => {
                     console.log(json);
