@@ -48,20 +48,10 @@
   <a href="contact.html">Contact</a>
 </nav>
 
-  <script>
-        function fetchJSONData() {
-            fetch('./index.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! Status: ${response.status}`);
-                    }
-                    return response.json();  
-                })
-                .then(data => console.log(data))  
-                .catch(error => console.error('Failed to fetch data:', error)); 
-        }
-        fetchJSONData();  
-    </script>
+<script type="module">
+    import jsonData from './index.json' assert { type: 'json' };
+    console.log(jsonData);
+  </script>
 
 <!-- Content container side -->
 <div class="container">
