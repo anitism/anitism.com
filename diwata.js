@@ -1,7 +1,6 @@
 <!-- Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. -->
 
 document.addEventListener("DOMContentLoaded", function () {
-
             fetch('./diwata.json')
                 .then((response) => response.json())
                 .then((json) => {
@@ -25,5 +24,5 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.querySelector(".diwataofwar p").innerHTML = json[8].paragraph;
                         document.querySelector(".miscellaneous i").innerHTML = json[9].title;
                         document.querySelector(".miscellaneous p").innerHTML = json[9].paragraph;
-                })
-        });
+            })
+});
