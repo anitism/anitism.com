@@ -1,4 +1,6 @@
-        document.addEventListener("DOMContentLoaded", function () {
+<!-- Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. -->
+
+document.addEventListener("DOMContentLoaded", function () {
 
             fetch('./contact.json')
                 .then((response) => response.json())
