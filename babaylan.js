@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     console.log(json);
                         document.querySelector(".babaylan h1").innerHTML = json[0].title;
                         document.querySelector(".babaylan p").innerHTML = json[0].paragraph;
-                        document.querySelector(".shamans h2").innerHTML = json[1].title;
+                        document.querySelector(".shamans h1").innerHTML = json[1].title;
                         document.querySelector(".shamans p").innerHTML = json[1].paragraph;
                         document.querySelector(".omens h2").innerHTML = json[2].title;
                         document.querySelector(".omens p").innerHTML = json[2].paragraph;
