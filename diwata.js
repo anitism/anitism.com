@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.querySelector(".divinity h1").innerHTML = json[1].title;
                         document.querySelector(".divinity p").innerHTML = json[1].paragraph;
                         document.querySelector(".divineentities h2").innerHTML = json[2].title;
-                        document.querySelector(".divineentities p").innerHTML = json[2].title;
+                        document.querySelector(".divineentities p").innerHTML = json[2].paragraph;
                         document.querySelector(".diwataofharvest i").innerHTML = json[3].title;
                         document.querySelector(".diwataofharvest p").innerHTML = json[3].paragraph;
                         document.querySelector(".diwataofskies i").innerHTML = json[4].title;
