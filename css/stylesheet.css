@@ -33,7 +33,7 @@ img {
   border-radius: 5px;
 }
 
-#greet, #date {
+span #greet, span #date {
   margin-top: 0;
   margin-bottom: 0;
 }
