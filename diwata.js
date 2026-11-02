@@ -11,19 +11,19 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.querySelector(".divinity h1").innerHTML = json[1].title;
                         document.querySelector(".divinity p").innerHTML = json[1].paragraph;
                         document.querySelector(".divineentities h2").innerHTML = json[2].title;
-                        document.querySelector(".diwataofharvest i").innerHTML = json[3].title;
+                        document.querySelector(".diwataofharvest h3").innerHTML = json[3].title;
                         document.querySelector(".diwataofharvest p").innerHTML = json[3].paragraph;
-                        document.querySelector(".diwataofskies i").innerHTML = json[4].title;
+                        document.querySelector(".diwataofskies h3").innerHTML = json[4].title;
                         document.querySelector(".diwataofskies p").innerHTML = json[4].paragraph;
-                        document.querySelector(".diwataofdeath i").innerHTML = json[5].title;
+                        document.querySelector(".diwataofdeath h3").innerHTML = json[5].title;
                         document.querySelector(".diwataofdeath p").innerHTML = json[5].paragraph;
-                        document.querySelector(".diwataofredemption i").innerHTML = json[6].title;
+                        document.querySelector(".diwataofredemption h3").innerHTML = json[6].title;
                         document.querySelector(".diwataofredemption p").innerHTML = json[6].paragraph;
-                        document.querySelector(".diwataoftorment i").innerHTML = json[7].title;
+                        document.querySelector(".diwataoftorment h3").innerHTML = json[7].title;
                         document.querySelector(".diwataoftorment p").innerHTML = json[7].paragraph;
-                        document.querySelector(".diwataofwar i").innerHTML = json[8].title;
+                        document.querySelector(".diwataofwar h3").innerHTML = json[8].title;
                         document.querySelector(".diwataofwar p").innerHTML = json[8].paragraph;
-                        document.querySelector(".miscellaneous i").innerHTML = json[9].title;
+                        document.querySelector(".miscellaneous h3").innerHTML = json[9].title;
                         document.querySelector(".miscellaneous p").innerHTML = json[9].paragraph;
                 })
         });
