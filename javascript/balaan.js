@@ -6,7 +6,7 @@
                     console.log(json);
                         document.querySelector(".balaan h1").innerHTML = json[0].title;
                         document.querySelector(".balaan p").innerHTML = json[0].paragraph;
-                        document.querySelector(".scriptures h2").innerHTML = json[1].title;
+                        document.querySelector(".scriptures h1").innerHTML = json[1].title;
                         document.querySelector(".scriptures p").innerHTML = json[1].paragraph;
                         document.querySelector(".laonofmountkanlaon h2").innerHTML = json[2].title;
                         document.querySelector(".laonofmountkanlaon p").innerHTML = json[2].paragraph;
