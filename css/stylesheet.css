@@ -65,7 +65,7 @@ header {
 nav {
   background-color: #0038A8;
   background-image: url('https://anitism.com/images/leftsun.png'), url('https://anitism.com/images/rightsun.png');
-  background-position: left center, right center;
+  background-position: left bottom, right bottom;
   background-repeat: no-repeat, no-repeat;
   background-size: 17%;
   color: #FFFFFF;
@@ -77,9 +77,6 @@ nav {
   margin-bottom: 0px;
 @media screen and (min-width: 825px) {
     background-color: #333;
-    background-image: url('https://anitism.com/images/leftsun.png'), url('https://anitism.com/images/rightsun.png');
-    background-position: left center, right center;
-    background-repeat: no-repeat, no-repeat;
     background: linear-gradient(0deg, #333, #222 80%) no-repeat;
     border-bottom: 4px solid #FCD116;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
@@ -120,6 +117,10 @@ main .mountkanlaon p, main .mountmadyaas p {
 
 aside {
   background-color: #F1F1F1;
+  background-image: url('https://anitism.com/images/leftsun.png'), url('https://anitism.com/images/rightsun.png');
+  background-position: left top, right top;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 17%;
   padding: 20px;
   flex: 30%;
   text-align: center;
