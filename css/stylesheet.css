@@ -25,6 +25,10 @@ li {
   list-style-type: "\2605\00a0";
 }
 
+span {
+  margin: 0;
+}
+
 img {
   max-width: 100%;
   height: auto;
