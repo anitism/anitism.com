@@ -1,6 +1,5 @@
 /* Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. */
 
-<script>
         document.addEventListener("DOMContentLoaded", function () {
 
             fetch('./json/index.json')
@@ -16,4 +15,3 @@
                     }
                 })
         });
-    </script>
