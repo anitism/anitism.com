@@ -1,3 +1,5 @@
+/* Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. */
+
 const greetings = [
   "Good morning, ",
   "Good morning, ",
