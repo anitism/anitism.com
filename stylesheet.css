@@ -111,7 +111,7 @@ main {
   margin-bottom: 13%;
 }
 
-/* Titles */
+/* Main and side titles */
 main h1, main h2, aside h1, aside h2 {
   color: #CE1126;
   text-transform: uppercase;
