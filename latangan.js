@@ -1,7 +1,6 @@
 <!-- Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. -->
 
 document.addEventListener("DOMContentLoaded", function () {
-
             fetch('./latangan.json')
                 .then((response) => response.json())
                 .then((json) => {
@@ -14,5 +13,5 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.querySelector(".mountkanlaon h4").innerHTML = json[2].paragraph;
                         document.querySelector(".mountmadyaas h2").innerHTML = json[3].title;
                         document.querySelector(".mountmadyaas h4").innerHTML = json[3].paragraph;
-                })
-        });
+            })
+});
