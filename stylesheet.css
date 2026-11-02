@@ -16,13 +16,19 @@ html, body {
   margin: 0;
 }
 
-/* List */
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h4 {
+  text-align: center;
+}
+
 li {
   text-align: left;
   list-style-type: "\2605\00a0";
 }
 
-/* Images */
 img {
   max-width: 100%;
   height: auto;
@@ -31,14 +37,12 @@ img {
   border-radius: 5px;
 }
 
-/* Column container */
 .container {  
   display: flex;
   flex-wrap: wrap;
   min-height: 100dvh;
 }
 
-/* Keyframes logo */
 @keyframes logo {
   0% {
     opacity: 0;
@@ -50,12 +54,10 @@ img {
   }
 }
 
-/*Anitism header effect */
 #anitism {
   animation: logo 0.5s 0.4s backwards;
 }
 
-/* Header */
 header {
   background-color: #0038A8;
   flex: 100%;
@@ -64,7 +66,6 @@ header {
   margin: 0 auto;
 }
 
-/* Top navigation bar */
 nav {
   background-color: #0038A8;
   color: #FFFFFF;
@@ -82,7 +83,6 @@ nav {
   }
 }
 
-/* Navigation bar links */
 nav a {
   color: #FFFFFF;
   padding: 14px 20px;
@@ -90,19 +90,16 @@ nav a {
   text-transform: uppercase;
 }
 
-/* Navigation bar active links and list markers */
 nav .active, ::marker {
   color: #FCD116;
 }
 
-/* Change color on hover */
 @media screen and (min-width: 825px) {
   nav a:hover {
     color: #FCD116;
   }
 }
 
-/* Main column */
 main {
   flex: 70%;
   background-color: white;
@@ -110,23 +107,10 @@ main {
   margin-bottom: 13%;
 }
 
-/* Main and side titles */
-main h1, main h2, aside h1, aside h2 {
-  color: #CE1126;
-  text-transform: uppercase;
-}
-
-/* Main column h4 */
-main h4 {
-  text-align: center;
-}
-
-/* Main column links and hover */
-main a, main a:hover {
+main h1, main h2, main a, main a:hover {
   color: #CE1126;
 }
 
-/* Sidebar/left column */
 aside {
   background-color: #F1F1F1;
   padding: 20px;
@@ -134,12 +118,10 @@ aside {
   text-align: center;
 }
 
-/* Side column links and hover */
-aside a, aside a:hover {
+aside h1, aside h2, aside a, aside a:hover {
   color: #0038A8;
 }
 
-/* Footer */
 footer {
   position: fixed;
   width: 100%;
@@ -155,12 +137,10 @@ footer {
   background: linear-gradient(0deg, #222, #333 80%) no-repeat;
 }
 
-/* Footer link */
 footer a, footer a:hover {
   color: #FFFFFF;
 }
 
-/* Responsive layout - when the screen is less than 825 pixels wide, make the two columns stack on top of each other instead of next to each other (example was 700px) */
 @media screen and (max-width: 825px) {
   .container, nav {   
     flex-direction: column;
