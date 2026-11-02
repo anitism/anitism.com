@@ -20,10 +20,6 @@ h1, h2 {
   text-transform: uppercase;
 }
 
-h4 {
-  text-align: center;
-}
-
 li {
   text-align: left;
   list-style-type: "\2605\00a0";
@@ -111,6 +107,10 @@ main h1, main h2, main a, main a:hover {
   color: #CE1126;
 }
 
+main h4, main .mountkanlaon p, main .mountmadyaas p {
+  text-align: center;
+}
+
 aside {
   background-color: #F1F1F1;
   padding: 20px;
@@ -120,10 +120,6 @@ aside {
 
 aside h1, aside h2, aside a, aside a:hover {
   color: #0038A8;
-}
-
-.mountkanlaon p, .mountmadyaas p {
-  text-align: center;
 }
 
 footer {
