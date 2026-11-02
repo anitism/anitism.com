@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function () {
 
-            fetch('./balaan.json')
+            fetch('./diwata.json')
                 .then((response) => response.json())
                 .then((json) => {
                     console.log(json);
