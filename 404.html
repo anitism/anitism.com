@@ -33,6 +33,20 @@
   </head>
 <body>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            fetch('index.json')
+                .then((response) => response.json())
+                .then((json) => {
+                    console.log(json);
+                        document.querySelector(".content h1").innerHTML = json[0].title;
+                        document.querySelector(".content p").innerHTML = json[0].paragraph;
+                    }
+                })
+        });
+  </script>
+
 <!-- Header -->
 <header role="banner">
     <img src="/images/header.png" fetchpriority="high" alt="Anitism" id="anitism">
@@ -73,20 +87,6 @@
 
 <!-- Script -->
 <script src="javascript/date.js"></script>
-
-  <script>
-        document.addEventListener("DOMContentLoaded", function () {
-
-            fetch('./index.json')
-                .then((response) => response.json())
-                .then((json) => {
-                    console.log(json);
-                        document.querySelector(".content h1").innerHTML = json[0].title;
-                        document.querySelector(".content p").innerHTML = json[0].paragraph;
-                    }
-                })
-        });
-  </script>
 
 </body>
 </html>
