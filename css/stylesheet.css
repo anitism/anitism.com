@@ -64,7 +64,7 @@ header {
 
 nav {
   background-color: #0038A8;
-  background-image: url('https://anitism.com/images/leftsun.png'), url('https://anitism.com/images/rightsun.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://anitism.com/images/leftsun.png'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://anitism.com/images/rightsun.png');
   background-position: left center, right center;
   background-repeat: no-repeat, no-repeat;
   background-size: 15%;
