@@ -111,12 +111,6 @@ main h4, main .mountkanlaon p, main .mountmadyaas p {
   text-align: center;
 }
 
-main .laonofmountkanlaon p::first-letter, main .makaptanofthehighestsky p::first-letter, main .sidapaofmountmadyaas p::first-letter, main .warandplundering p::first-letter, main .theinfernalregions p::first-letter   {
-  color: #CE1126;
-  font-weight: bold;
-  font-size: 40px;
-}
-
 aside {
   background-color: #F1F1F1;
   padding: 20px;
