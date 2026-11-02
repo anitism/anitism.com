@@ -48,6 +48,21 @@
   <a href="contact.html">Contact</a>
 </nav>
 
+  <script>
+        function fetchJSONData() {
+            fetch('./index.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! Status: ${response.status}`);
+                    }
+                    return response.json();  
+                })
+                .then(data => console.log(data))  
+                .catch(error => console.error('Failed to fetch data:', error)); 
+        }
+        fetchJSONData();  
+    </script>
+
 <!-- Content container side -->
 <div class="container">
   <aside role="complementary">
@@ -73,20 +88,6 @@
 
 <!-- Script -->
 <script src="javascript/date.js"></script>
-
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-
-            fetch('index.json')
-                .then((response) => response.json())
-                .then((json) => {
-                    console.log(json);
-                        document.querySelector(".content h1").innerHTML = json[0].title;
-                        document.querySelector(".content p").innerHTML = json[0].paragraph;
-                    }
-                })
-        });
-  </script>
 
 </body>
 </html>
