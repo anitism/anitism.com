@@ -29,7 +29,7 @@
       <link rel="canonical" href="https://anitism.com/404.html">
       <link rel="icon" type="image/png" href="/images/favicon.png">
       <link rel="stylesheet" href="css/stylesheet.css">
-      <script src="json/index.json" type="application/json"></script>
+      <script src="index.json" type="application/json"></script>
   </head>
 <body>
 
@@ -51,7 +51,7 @@
   <script>
         document.addEventListener("DOMContentLoaded", function () {
 
-            fetch('json/index.json')
+            fetch('./index.json')
                 .then((response) => response.json())
                 .then((json) => {
                     console.log(json);
