@@ -122,6 +122,10 @@ aside h1, aside h2, aside a, aside a:hover {
   color: #0038A8;
 }
 
+.mountkanlaon p, .mountmadyaas p {
+  text-align: center;
+}
+
 footer {
   position: fixed;
   width: 100%;
