@@ -116,14 +116,14 @@ main h1, main h2, aside h1, aside h2 {
   text-transform: uppercase;
 }
 
-/* Main column links and hover */
-main a, main a:hover {
-  color: #CE1126;
-}
-
 /* Main column h4 */
 main h4 {
   text-align: center;
+}
+
+/* Main column links and hover */
+main a, main a:hover {
+  color: #CE1126;
 }
 
 /* Sidebar/left column */
