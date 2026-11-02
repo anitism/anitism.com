@@ -117,10 +117,10 @@ main .mountkanlaon p, main .mountmadyaas p {
 
 aside {
   background-color: #F1F1F1;
-  background-image: url('https://anitism.com/images/leftsun.png'), url('https://anitism.com/images/rightsun.png');
-  background-position: left top, right bottom;
-  background-repeat: no-repeat, no-repeat;
-  background-size: 17%;
+  background-image: url('https://anitism.com/images/sun.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-size: 10%;
   padding: 20px;
   flex: 30%;
   text-align: center;
