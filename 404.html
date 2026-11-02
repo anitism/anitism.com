@@ -72,12 +72,12 @@
 
 <!-- Script -->
 <script src="javascript/date.js"></script>
-  <script src="./index.json" type="application/json"></script>
+  <script src="index.json" type="application/json"></script>
 
       <script>
         document.addEventListener("DOMContentLoaded", function () {
 
-            fetch('./index.json')
+            fetch('index.json')
                 .then((response) => response.json())
                 .then((json) => {
                     console.log(json);
