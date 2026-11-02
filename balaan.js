@@ -1,7 +1,6 @@
 <!-- Copyright © Anitism (Francis Brandon van Balkom). All rights reserved. -->
 
 document.addEventListener("DOMContentLoaded", function () {
-
             fetch('./balaan.json')
                 .then((response) => response.json())
                 .then((json) => {
@@ -20,5 +19,5 @@ document.addEventListener("DOMContentLoaded", function () {
                         document.querySelector(".warandplundering p").innerHTML = json[5].paragraph;
                         document.querySelector(".theinfernalregions h2").innerHTML = json[6].title;
                         document.querySelector(".theinfernalregions p").innerHTML = json[6].paragraph;
-                })
-        });
+            })
+});
