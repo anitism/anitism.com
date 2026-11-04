@@ -60,7 +60,7 @@ header {
   width: auto;
   height: auto;
   margin: 0 auto;
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 800px) {
     background-color: #0038A8;
   }
 }
@@ -78,7 +78,7 @@ nav {
   align-items: center;
   margin-top: 0px;
   margin-bottom: 0px;
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 800px) {
     background-color: #333;
     background: linear-gradient(0deg, #333, #222 80%) no-repeat;
     border-bottom: 4px solid #FCD116;
@@ -97,7 +97,7 @@ nav .active, ::marker {
   color: #FCD116;
 }
 
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 800px) {
   nav a:hover {
     color: #FCD116;
   }
@@ -108,7 +108,7 @@ main {
   flex: 70%;
   padding: 20px;
   margin-bottom: 0%;
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 800px) {
     background-color: #FFFFFF;
     flex: 70%;
     padding: 20px;
@@ -122,7 +122,7 @@ main h1, main h2, main a, main a:hover {
 
 main p, main i, main span, aside p {
   color: #FFFFFF;
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 800px) {
     color: #000000;
   }
 }
@@ -136,7 +136,7 @@ aside {
   padding: 20px;
   flex: 30%;
   text-align: center;
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 800px) {
     background-color: #F1F1F1;
     padding: 20px;
     flex: 30%;
@@ -160,7 +160,7 @@ footer {
   margin-bottom: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-@media screen and (min-width: 825px) {
+@media screen and (min-width: 800px) {
   background-color: #333;
   background: linear-gradient(0deg, #222, #333 80%) no-repeat;
   }
@@ -170,7 +170,7 @@ footer a, footer a:hover {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 825px) {
+@media screen and (max-width: 800px) {
   .container, nav {   
     flex-direction: column;
   }
