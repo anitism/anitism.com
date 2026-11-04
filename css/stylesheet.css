@@ -170,10 +170,7 @@ footer {
 }
 
 footer a, footer a:hover {
-  color: #000000;
-@media screen and (min-width: 800px) {
-    color: #FFFFFF;
-  }
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 800px) {
