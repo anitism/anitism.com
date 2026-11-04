@@ -37,8 +37,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   min-height: 100dvh;
-@media screen and (min-width: 825px) {
-    background-color: #000000;
 }
 
 @keyframes logo {
@@ -125,6 +123,8 @@ aside {
   padding: 20px;
   flex: 30%;
   text-align: center;
+@media screen and (max-width: 825px) {
+    color: #000000;
 }
 
 aside h1, aside h2, aside a, aside a:hover {
