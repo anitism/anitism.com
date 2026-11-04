@@ -104,10 +104,16 @@ nav .active, ::marker {
 }
 
 main {
+  background-color: #FFFFFF;
   flex: 70%;
-  background-color: white;
   padding: 20px;
   margin-bottom: 13%;
+@media screen and (min-width: 825px) {
+    background-color: #000000;
+    flex: 70%;
+    padding: 20px;
+    margin-bottom: 13%;
+  }
 }
 
 main h1, main h2, main a, main a:hover {
@@ -123,6 +129,12 @@ aside {
   padding: 20px;
   flex: 30%;
   text-align: center;
+@media screen and (min-width: 825px) {
+    background-color: #000000;
+    padding: 20px;
+    flex: 30%;
+    text-align: center;
+  }
 }
 
 aside h1, aside h2, aside a, aside a:hover {
