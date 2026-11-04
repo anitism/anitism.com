@@ -120,7 +120,7 @@ main h1, main h2, main a, main a:hover {
   color: #CE1126;
 }
 
-main p, aside p {
+main p, main i, main span, aside p {
   color: #FFFFFF;
 @media screen and (min-width: 825px) {
     color: #000000;
