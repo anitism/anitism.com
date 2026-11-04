@@ -37,6 +37,8 @@ img {
   display: flex;
   flex-wrap: wrap;
   min-height: 100dvh;
+@media screen and (min-width: 825px) {
+    background-color: #000000;
 }
 
 @keyframes logo {
@@ -55,11 +57,14 @@ img {
 }
 
 header {
-  background-color: #0038A8;
+  background-color: #000000;
   flex: 100%;
   width: auto;
   height: auto;
   margin: 0 auto;
+@media screen and (min-width: 825px) {
+    background-color: #0038A8;
+  }
 }
 
 nav {
@@ -119,7 +124,7 @@ aside {
   background-color: #F1F1F1;
   padding: 20px;
   flex: 30%;
-  ext-align: center;
+  text-align: center;
 }
 
 aside h1, aside h2, aside a, aside a:hover {
@@ -149,8 +154,7 @@ footer a, footer a:hover {
 }
 
 @media screen and (max-width: 825px) {
-  .container, nav {
-    background-color: #000000;
+  .container, nav {   
     flex-direction: column;
   }
 }
