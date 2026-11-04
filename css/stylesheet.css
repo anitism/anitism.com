@@ -63,7 +63,7 @@ header {
 }
 
 nav {
-  background-color: #0038A8;
+  background-color: #000000;
   background-image: url('https://anitism.com/images/leftsun.png'), url('https://anitism.com/images/rightsun.png');
   background-position: left bottom, right bottom;
   background-repeat: no-repeat, no-repeat;
