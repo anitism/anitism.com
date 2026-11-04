@@ -108,7 +108,7 @@ main {
   flex: 70%;
   padding: 20px;
   margin-bottom: 13%;
-@media screen and (max-width: 825px) {
+@media screen and (min-width: 825px) {
     background-color: #FFFFFF;
     flex: 70%;
     padding: 20px;
@@ -129,7 +129,7 @@ aside {
   padding: 20px;
   flex: 30%;
   text-align: center;
-@media screen and (max-width: 825px) {
+@media screen and (min-width: 825px) {
     background-color: #F1F1F1;
     padding: 20px;
     flex: 30%;
