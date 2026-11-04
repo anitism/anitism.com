@@ -55,7 +55,7 @@ img {
 }
 
 header {
-  background-color: #000000;
+  background-color: #0038A8;
   flex: 100%;
   width: auto;
   height: auto;
@@ -63,7 +63,7 @@ header {
 }
 
 nav {
-  background-color: #000000;
+  background-color: #0038A8;
   background-image: url('https://anitism.com/images/leftsun.png'), url('https://anitism.com/images/rightsun.png');
   background-position: left bottom, right bottom;
   background-repeat: no-repeat, no-repeat;
