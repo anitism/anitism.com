@@ -119,10 +119,14 @@ main .mountkanlaon p, main .mountmadyaas p {
 }
 
 aside {
-  background-color: #F1F1F1;
+  background-color: #000000;
+  color: #FFFFFF;
   padding: 20px;
   flex: 30%;
   text-align: center;
+@media screen and (min-width: 825px) {
+    background-color: #F1F1F1;
+    color: #000000;
 }
 
 aside h1, aside h2, aside a, aside a:hover {
