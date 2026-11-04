@@ -107,7 +107,7 @@ main {
   background-color: #000000;
   flex: 70%;
   padding: 20px;
-  margin-bottom: 13%;
+  margin-bottom: 0%;
 @media screen and (min-width: 825px) {
     background-color: #FFFFFF;
     flex: 70%;
@@ -118,6 +118,13 @@ main {
 
 main h1, main h2, main a, main a:hover {
   color: #CE1126;
+}
+
+main p, aside p {
+  color: #FFFFFF;
+@media screen and (min-width: 825px) {
+    color: #000000;
+  }
 }
 
 main .mountkanlaon p, main .mountmadyaas p {
