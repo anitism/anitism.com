@@ -130,6 +130,8 @@ aside h1, aside h2, aside a, aside a:hover {
 }
 
 footer {
+  background-color: #000000;
+@media screen and (min-width: 825px) {
   position: fixed;
   width: 100%;
   left: 0px;
@@ -142,8 +144,6 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
   background: linear-gradient(0deg, #222, #333 80%) no-repeat;
-@media screen and (max-width: 825px) {
-    background-color: #000000;
   }
 }
 
