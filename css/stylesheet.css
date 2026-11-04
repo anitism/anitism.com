@@ -10,10 +10,14 @@
 }
 
 html, body {
+  background-color: #000000;
   height: 100%;
   font-family: 'Roboto', sans-serif;
   font-size: clamp(1em, 17px + 0.24vw, 1.125em);
   margin: 0;
+  @media screen and (min-width: 800px) {
+    background-color: #FFFFFF;
+  }
 }
 
 h1, h2 {
