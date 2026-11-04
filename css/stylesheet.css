@@ -131,19 +131,20 @@ aside h1, aside h2, aside a, aside a:hover {
 
 footer {
   background-color: #000000;
+  background: none;
 @media screen and (min-width: 825px) {
+  background-color: #333;
+  background: linear-gradient(0deg, #222, #333 80%) no-repeat;
   position: fixed;
   width: 100%;
   left: 0px;
   right: 0px;
   bottom: 0px;
   text-align: center;
-  background-color: #333;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background: linear-gradient(0deg, #222, #333 80%) no-repeat;
   }
 }
 
