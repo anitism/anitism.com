@@ -130,13 +130,6 @@ aside {
   }
 }
 
-aside h1, aside a, aside a:hover {
-  color: #CE1126;
-@media screen and (min-width: 800px) {
-    color: #0038A8;
-  }
-}
-
 main h1, main h2 {
   color: #CE1126;
 }
@@ -149,6 +142,13 @@ main p, main i, main span, aside p {
   color: #FFFFFF;
 @media screen and (min-width: 800px) {
     color: #000000;
+  }
+}
+
+aside h1, aside a, aside a:hover {
+  color: #CE1126;
+@media screen and (min-width: 800px) {
+    color: #0038A8;
   }
 }
 
