@@ -137,6 +137,10 @@ main h1, main h2, main a, main a:hover {
   color: #CE1126;
 }
 
+aside h1, aside h2, aside a, aside a:hover {
+  color: #0038A8;
+}
+
 main p, main i, main span, aside p {
   color: #FFFFFF;
 @media screen and (min-width: 800px) {
@@ -146,10 +150,6 @@ main p, main i, main span, aside p {
 
 main .mountkanlaon p, main .mountmadyaas p {
   text-align: center;
-}
-
-aside h1, aside h2, aside a, aside a:hover {
-  color: #0038A8;
 }
 
 footer {
