@@ -137,11 +137,7 @@ aside {
   }
 }
 
-aside a, aside a:hover {
-  color: #0038A8;
-}
-
-aside h1 {
+aside h1, aside a, aside a:hover {
   color: #CE1126;
 @media screen and (min-width: 800px) {
     color: #0038A8;
