@@ -108,15 +108,15 @@ nav .active, ::marker {
 }
 
 main {
-  background-color: #000000;
   flex: 70%;
   padding: 20px;
   margin-bottom: 13%;
+}
+
+main {
+  background-color: #000000;
 @media screen and (min-width: 800px) {
     background-color: #FFFFFF;
-    flex: 70%;
-    padding: 20px;
-    margin-bottom: 13%;
   }
 }
 
@@ -136,15 +136,15 @@ main .mountkanlaon p, main .mountmadyaas p {
 }
 
 aside {
-  background-color: #000000;
-  padding: 20px;
   flex: 30%;
+  padding: 20px;
   text-align: center;
+}
+
+aside {
+  background-color: #000000;
 @media screen and (min-width: 800px) {
     background-color: #F1F1F1;
-    padding: 20px;
-    flex: 30%;
-    text-align: center;
   }
 }
 
