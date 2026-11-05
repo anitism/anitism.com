@@ -120,6 +120,10 @@ main {
   }
 }
 
+main h1, main h2, main a, main a:hover {
+  color: #CE1126;
+}
+
 aside {
   flex: 30%;
   padding: 20px;
@@ -131,10 +135,6 @@ aside {
 @media screen and (min-width: 800px) {
     background-color: #F1F1F1;
   }
-}
-
-main h1, main h2, main a, main a:hover {
-  color: #CE1126;
 }
 
 aside h1, aside h2, aside a, aside a:hover {
