@@ -120,21 +120,6 @@ main {
   }
 }
 
-main h1, main h2, main a, main a:hover {
-  color: #CE1126;
-}
-
-main p, main i, main span, aside p {
-  color: #FFFFFF;
-@media screen and (min-width: 800px) {
-    color: #000000;
-  }
-}
-
-main .mountkanlaon p, main .mountmadyaas p {
-  text-align: center;
-}
-
 aside {
   flex: 30%;
   padding: 20px;
@@ -145,6 +130,21 @@ aside {
   background-color: #000000;
 @media screen and (min-width: 800px) {
     background-color: #F1F1F1;
+  }
+}
+
+main h1, main h2, main a, main a:hover {
+  color: #CE1126;
+}
+
+main .mountkanlaon p, main .mountmadyaas p {
+  text-align: center;
+}
+
+main p, main i, main span, aside p {
+  color: #FFFFFF;
+@media screen and (min-width: 800px) {
+    color: #000000;
   }
 }
 
