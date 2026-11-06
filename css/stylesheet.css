@@ -24,6 +24,10 @@ h1, h2 {
   text-transform: uppercase;
 }
 
+span {
+  line-height: normal;
+}
+
 li {
   text-align: left;
   list-style-type: "\2605\00a0";
